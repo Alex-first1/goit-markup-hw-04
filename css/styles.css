@@ -353,8 +353,8 @@ transition:  background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.icon-link :hover,
-.icon-link :focus {
+.icon-item :hover,
+.icon-item :focus {
   background-color: #404bbf;
 }
 
@@ -363,7 +363,6 @@ transition:  background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .icon-item :hover {
-  background-color: aqua;
 }
 /*portfolio*/
 
@@ -453,6 +452,8 @@ transition:  background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-container{
+  display: flex;
+  align-items: baseline;
 
 }
 
@@ -493,7 +494,7 @@ transition:  background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-text-icon {
-  display: flex;
+ 
   justify-content: center;
   align-items: center;
   gap: 16px;
@@ -505,7 +506,7 @@ transition:  background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   line-height: 1.5;
   letter-spacing: 0.02em;
   display: flex;
-  padding-bottom: 16px;
+  margin-bottom: 16px;
 }
 .icon-list {
 }
@@ -519,6 +520,13 @@ transition:  background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   width: 40px;
   height: 40px;
 }
+
+.footer-icon-item :hover,
+.footer-icon-item :focus {
+background-color: #31d0aa;
+}
+
+
 .icon-link {
 }
 .footer-icon-link {
