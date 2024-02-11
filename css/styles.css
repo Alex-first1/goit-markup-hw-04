@@ -311,6 +311,7 @@ img {
 }
 
 .photo-team {
+  width: 100%;
 }
 
 .name {
@@ -411,6 +412,7 @@ img {
 }
 
 .content {
+  width: 100%;
 }
 
 .service {
