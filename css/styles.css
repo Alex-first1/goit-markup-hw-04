@@ -167,7 +167,6 @@ img {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .hero-container {
@@ -210,7 +209,7 @@ img {
 }
 
 .hero-button:focus {
-transition:  background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /*Feature*/
@@ -353,7 +352,10 @@ transition:  background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.icon-link :hover,
+.icon-link :hover {
+  background-color: #404bbf;
+}
+
 .icon-link :focus {
   background-color: #404bbf;
 }
@@ -396,7 +398,8 @@ transition:  background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .portfolio-list :hover {
-  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 .portfolio-item {
   flex-basis: calc((100% - 48px) / 3);
@@ -457,10 +460,9 @@ transition:  background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   padding: 100px 0;
 }
 
-.footer-container{
+.footer-container {
   display: flex;
   align-items: baseline;
-
 }
 
 .paragraf-logo {
@@ -500,7 +502,6 @@ transition:  background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-text-icon {
- 
   justify-content: center;
   align-items: center;
   gap: 16px;
@@ -529,9 +530,8 @@ transition:  background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 .footer-icon-item :hover,
 .footer-icon-item :focus {
-background-color: #31d0aa;
+  background-color: #31d0aa;
 }
-
 
 .icon-link {
 }
